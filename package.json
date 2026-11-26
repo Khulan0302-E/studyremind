@@ -1,0 +1,20 @@
+{
+  "name": "studyremind",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Даалгавар — Moodle, Teams, MyEnglishLab-ын даалгавар, шалгалт ба хичээлийн хуваарийн нэгдсэн хуанли, сануулга",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "build": "node client/build.js",
+    "watch": "node client/build.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
